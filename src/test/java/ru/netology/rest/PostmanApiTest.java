@@ -20,8 +20,8 @@ public class PostmanApiTest {
                 // Проверки
                 .then()
                 .log().all()
-                .statusCode(200)
-                .body("data", equalTo("specific data"));
+                .statusCode(240)
+                .body("data", equalTo("some data"));
     }
 }
 
